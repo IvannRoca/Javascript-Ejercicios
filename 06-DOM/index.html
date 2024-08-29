@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 : HTML + CSS + DOM.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Perfumes Latinos - Conteo de Ventas</h1>
+
+    <div class="container">
+        <h2>Laura</h2>
+        <p>Ingresar Ventas</p>
+        <br>
+        <div class="sales-inputs">
+            <label for="laura-Aqua">Aqua:</label>
+            <input type="number" id="laura-aqua" min="0">
+        </div>
+        <div class="sales-inputs">
+            <label for="laura-emocion">Emocion:</label>
+            <input type="number" id="laura-emocion" min="0">
+        </div>
+        <div class="sales-inputs">
+            <label for="laura-alegria">Alegria:</label>
+            <input type="number" id="laura-alegria" min="0">
+        </div>
+        <div class="sales-inputs">
+            <label for="laura-frescura">Frescura:</label>
+            <input type="number" id="laura-frescura" min="0">
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Alfredo</h2>
+        <p>Ingresar Ventas</p>
+        <br>
+        <div class="sales-inputs">
+            <label for="alfredo-aqua">Aqua:</label>
+            <input type="number" id="alfredo-aqua" min="0">
+        </div>
+        <div class="sales-inputs">
+            <label for="alfredo-emocion">Emocion:</label>
+            <input type="number" id="alfredo-emocion" min="0">
+        </div>
+        <div class="sales-inputs">
+            <label for="alfredo-alegria">Alegria:</label>
+            <input type="number" id="alfredo-alegria" min="0">
+        </div>
+        <div class="sales-inputs">
+            <label for="alfredo-frescura">Frescura:</label>
+            <input type="number" id="alfredo-frescura" min="0">
+        </div>
+    
+    </div>
+
+    
+    <div class="buttons">
+        <button onclick="clacularResultados()">Calcular Resultados</button>
+        <button onclick="LimpiarFormulario()">Limpiar</button>
+    </div>
+
+    
+    <script src="java.js"></script>
+</body>
+</html>
